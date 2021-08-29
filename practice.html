@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+	<center>
+<div class="container">
+	
+	<h1>Profile information</h1>
+
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="user_name">
+		  <br>
+		  <label >Age:</label>
+		  <input type="text" id="age" class="form-control" placeholder="age">
+		  <br>
+		  <label >Email:</label>
+		  <input type="text" id="Email" class="form-control" placeholder="Email">
+		  <br>
+		  <label >Contact number:</label>
+		  <input type="text" id="contact_number" class="form-control" placeholder="contact_number">
+		  <br>
+		  <label >Address:</label>
+		  <input type="text" id="address" class="form-control" placeholder="address">
+
+		</div>
+
+		<button class="btn btn-success" onclick="add_user()">upload information</button>
+
+</div>
+</center>
+</body>
+</html>
